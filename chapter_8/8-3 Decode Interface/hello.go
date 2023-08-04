@@ -29,7 +29,7 @@ func main() {
 	if err != nil {
 		log.Println("Error : %s", err)
 		return
-	}
+	} 
 
 	fmt.Println("Name:", c["name"])
 	fmt.Println("Title:", c["title"])
